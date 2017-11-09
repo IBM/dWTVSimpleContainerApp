@@ -1,0 +1,16 @@
+{
+	"name": "NodejsStarterApp",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node app.js"
+	},
+	"dependencies": {
+		"express": "4.15.x",
+		"metrics-tracker-client": "^0.1.9"
+	},
+	"repository": {},
+	"engines": {
+		"node": "6.x"
+	} 
+}

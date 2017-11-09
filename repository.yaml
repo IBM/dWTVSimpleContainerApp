@@ -1,0 +1,8 @@
+id: dWTVSimpleContainerApp
+event_id: web
+event_organizer: dw-mailbag
+runtimes: 
+  - Cloud Foundry
+services: 
+  - Continuous-delivery
+language: nodejs

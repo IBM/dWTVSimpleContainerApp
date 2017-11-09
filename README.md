@@ -10,6 +10,14 @@ This application demonstrates a simple, reusable Node.js web application based o
 1. Run `npm start` to start the app
 1. Access the running app in a browser at the URL written to the console (most likely http://localhost:6012)
 
+## Build a Docker image from the app
+
+```
+docker build -t imageName:tag .
+```
+
+where `imageName` is whatever you want to call your Docker image and `tag` is something like `v1` or `latest`.
+
 [Install Node.js]: https://nodejs.org/en/download/
 
 ## Privacy Notice
@@ -50,4 +58,4 @@ require('metrics-tracker-client').track();
 
 If you're not using tracking, you can edit the `package.json` file to remove 
 the requirement for `metrics-tracker-client` if you like. 
-# dWTVSimpleContainerApp
+
