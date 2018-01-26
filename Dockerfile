@@ -1,4 +1,4 @@
-FROM registry.ng.bluemix.net/ibmnode:latest
+FROM ibmcom/ibmnode:latest
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
